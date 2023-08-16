@@ -1,0 +1,22 @@
+#this is a comment
+services:
+  noetic:
+    image: ros:noetic
+    command: bash -c "roscore"
+    expose: 
+    - 8000
+  
+  melodic:
+    image: ros:melodic
+    command: ["/usr/bin/bash", "-c", "/usr/bin/screen -d -m opt/ros/melodic/bin/roscore; rostopic pub -r 5 /chatter std_msgs/String 'hello world'"]
+    expose: 
+    - 8000
+
+  kinetic:
+    image: ros:kinetic
+    command: rostopic pub -r 5 chatter std_msgs/String "hello world"
+    expose: 
+    - 8000
+  
+
+
