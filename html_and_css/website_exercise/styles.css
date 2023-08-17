@@ -1,0 +1,155 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+main {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+h1 {
+    font-size: 38.5px;
+}
+h2 {
+    font-size: 31.5px;
+}
+h3 {
+    font-size: 24.5px;
+}
+h1, h2, h3 {
+    line-height: 40px;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #4b4b4b;
+    font-family: 'Oxygen', sans-serif;
+}
+p {
+    font-size: 1rem;
+    color: #737373;
+}
+
+.main-nav {
+    text-align: center;
+    padding: 16px 0px 16px 0px;
+}
+a[href]{
+    color: #6c63ff;
+    text-decoration: none;
+}
+.main-nav > a {
+    padding: 0px 5px 0px 5px;    
+    font-size: 15px;
+}
+
+a:hover {
+    color: #190ef8;
+    transition: 0.3s all ease;
+}
+
+img {
+    width: 100%;
+}
+
+#header-image {
+    width: 25%;
+    margin: 60px 0px;
+}
+
+#page-main-heading {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#welcome {
+    color: #ceccdf;
+    margin-bottom: 0px;
+}
+
+#page-main-heading > h1 {
+    margin-top: 10px;
+}
+
+.row {
+    font-size: 0px;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.column i {
+    font-size: 100px;
+}.column-20 {
+    width: 20%;
+}
+.column-25 {
+    width: 25%;
+}
+
+.column-30 {
+    width: 30%;
+}
+
+.column-40 {
+    width: 40%;
+}
+
+.column-50 {
+    width: 50%;
+}
+
+.column-70 {
+    width: 70%;
+}
+.icons-section {
+    text-align: center;
+}
+
+.icons-section .lni {
+    font-size: 40px;
+}
+.icons-section h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+.submit-form {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+.submit-form form input,
+.submit-form form textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0px;
+  padding: 20px;
+  font-size: 12px;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+}
+
+.submit-form form textarea {
+  height: 150px;
+}
+
+.submit-form form input[type="submit"] {
+  padding: 10px;
+  background-color: #6c63ff;
+  border-radius: 8px;
+  color: white;
+}
+#main-site-footer {
+    background-color: #6c63ff;
+    padding: 20px 0px;
+    margin-top: 50px;
+  }
+  
+  #main-site-footer a {
+    color: white;
+  }

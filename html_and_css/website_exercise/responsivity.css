@@ -1,0 +1,19 @@
+/* Targets all widths below 600px */
+@media screen and (max-width: 600px) {
+    .row .column {
+      width: 100%;
+    }
+  
+    .row.icons-section .column {
+      width: 50%;
+    }
+  
+    .submit-form {
+      width: 80%;
+    }
+  }
+  
+  /* Targets all widths above 1200px */
+  @media screen and (min-width: 1200px) {
+  
+  }
