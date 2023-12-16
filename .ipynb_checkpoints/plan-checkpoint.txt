@@ -1,0 +1,34 @@
+
+Not done yet:
+---
+
+Doing:
+:
+
+TO DO:
+
+
+DONE:
+
+
+---
+
+Completed:
+Programming basics
+Python_programming
+Fluent_python
+AI_programming
+AI_Project_II
+DA_tools
+databases
+ai_project1
+AITools
+Arduino
+Arduino_UNO
+container_technologies
+data_prep
+html
+introAI
+ICT-teema
+machine_learning
+serverarchitectures
